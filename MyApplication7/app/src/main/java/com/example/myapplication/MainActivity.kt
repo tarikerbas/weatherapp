@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         override fun doInBackground(vararg params: Void): String? {
             var connection: HttpURLConnection? = null
             try {
-                val apiKey = "YOUR_API_KEY"
+                val apiKey = "a5755d0eb3f3d3c6dcb8624b13425b98"
                 val location = "Istanbul, TR"
 
                 val url = URL("$API_URL?q=$location&appid=$apiKey")
